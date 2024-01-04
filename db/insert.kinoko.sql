@@ -1,3 +1,11 @@
+CREATE TABLE mushrooms (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    family TEXT NOT NULL,
+    toxicity INTEGER DEFAULT NULL
+);
+
+
 INSERT INTO mushrooms (id, name,family, toxicity) VALUES
 (1,'サンコタケ','アカカゴタケ科', null),
 (2,'アミガサタケ','アミガサタケ科', null),
